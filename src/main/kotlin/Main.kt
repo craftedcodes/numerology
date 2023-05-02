@@ -1,8 +1,11 @@
-fun main(args : Array<String>)
-{
-	println("Hello World!")
+import numbers.DestinyNumber
+
+fun main() {
+	// Create a new DestinyNumber object
+	val dn = DestinyNumber()
 	
-	// Try adding program arguments via Run/Debug configuration.
-	// Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-	println("Program arguments: ${args.joinToString()}")
+	// Call the calculateDestinyNumber method and print the result
+	val destinyNumber = dn.calculateDestinyNumber()
+	println("The destiny number is: $destinyNumber")
+	println("The meaning of the destiny number is: ${dn.meaning}")
 }
