@@ -4,4 +4,3 @@ plugins {
 }
 
 rootProject.name = "numerology"
-include("library")
