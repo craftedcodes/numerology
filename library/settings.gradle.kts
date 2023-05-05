@@ -4,3 +4,4 @@ plugins {
 }
 
 rootProject.name = "numerology"
+include("lib")
