@@ -11,9 +11,9 @@ class DestinyNumber() {
 	var meaning : String = ""
 	
 	// Method to calculate the destiny number
-	fun calculateDestinyNumber(birthdate : String): Int {
+	fun calculateDestinyNumber(): Int {
 		
-		val birthDate : String = birthdate
+		val birthDate : String = getBirthDate()
 		val number1 : Int = birthDate.getInt(0)
 		val number2 : Int = birthDate.getInt(1)
 		val number3 : Int = birthDate.getInt(2)
