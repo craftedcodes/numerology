@@ -11,9 +11,9 @@ class DestinyNumber() {
 	var meaning : String = ""
 	
 	// Method to calculate the destiny number
-	fun calculateDestinyNumber(): Int {
+	fun calculateDestinyNumber(birthdate : String): Int {
 		
-		val birthDate : String = getBirthDate()
+		val birthDate : String = birthdate
 		val number1 : Int = birthDate.getInt(0)
 		val number2 : Int = birthDate.getInt(1)
 		val number3 : Int = birthDate.getInt(2)
@@ -37,9 +37,12 @@ class DestinyNumber() {
 			number = crossSum
 		}
 		
+		Thread.sleep(400)
+		
 		// Set the meaning based on the number
 		meaning = destinyNumberTexts[number].toString()
 		
+		println("Your destiny number is $number and it means $meaning.")
 		return number
 	}
 }
