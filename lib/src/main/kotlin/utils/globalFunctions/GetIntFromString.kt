@@ -1,4 +1,4 @@
-package globalFunctions
+package utils.globalFunctions
 
 // This function attempts to convert a character at a specific index in the String to an Int.
 fun String.getInt(index : Int): Int {

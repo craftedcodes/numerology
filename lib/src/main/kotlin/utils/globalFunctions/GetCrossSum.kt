@@ -1,4 +1,4 @@
-package globalFunctions
+package utils.globalFunctions
 
 // This function calculates the cross sum.
 fun getCrossSum(

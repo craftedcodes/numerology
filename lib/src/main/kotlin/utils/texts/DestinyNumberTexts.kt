@@ -1,4 +1,4 @@
-package texts
+package utils.texts
 
 val destinyNumberTexts = mutableMapOf(
 		1 to "Independence, individuality, leadership",

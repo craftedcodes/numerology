@@ -1,4 +1,4 @@
-package globalFunctions
+package utils.globalFunctions
 
 // This function collects the birthdate from the user to calculate their fortune.
 fun getBirthDate() : String {

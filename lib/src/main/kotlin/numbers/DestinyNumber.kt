@@ -1,9 +1,9 @@
 package numbers
 
-import globalFunctions.getBirthDate
-import globalFunctions.getCrossSum
-import globalFunctions.getInt
-import texts.destinyNumberTexts
+import utils.globalFunctions.getBirthDate
+import utils.globalFunctions.getCrossSum
+import utils.globalFunctions.getInt
+import utils.texts.destinyNumberTexts
 
 // Define a class for DestinyNumber.
 class DestinyNumber() {
