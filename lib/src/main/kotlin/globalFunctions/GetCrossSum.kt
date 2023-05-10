@@ -1,5 +1,6 @@
 package globalFunctions
 
+// This function calculates the cross sum.
 fun getCrossSum(
 		number1 : Int,
 		number2 : Int,
