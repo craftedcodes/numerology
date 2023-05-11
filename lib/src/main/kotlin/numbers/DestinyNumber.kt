@@ -47,7 +47,7 @@ class DestinyNumber() {
 		meaning = destinyNumberTexts[number].toString()
 		
 		// Print the destiny number and its meaning.
-		println("Your destiny number is $number and it means $meaning.")
+		println("Your destiny number is $number and it means ${meaning.lowercase()}.")
 		return number
 	}
 }
